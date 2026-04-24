@@ -1,0 +1,41 @@
+﻿  main.cpp
+D:\4-2\Theory\apartment\apartment\cylinder.h(210,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\cylinder.h(230,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\cylinder.h(232,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\cylinder.h(208,28): warning C4101: 'xz': unreferenced local variable
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\cylinder_base.h(182,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\sphere.h(166,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\sphere.h(167,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\sphere.h(171,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\cone.h(149,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\4-2\Theory\apartment\apartment\main.cpp(1746,18): warning C4101: 's': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(1746,15): warning C4101: 't': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2226,18): warning C4101: 's': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2226,15): warning C4101: 't': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2513,18): warning C4101: 's': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2513,15): warning C4101: 't': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2626,18): warning C4101: 's': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2626,15): warning C4101: 't': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2756,37): warning C4101: 's': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2756,34): warning C4101: 't': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2797,37): warning C4101: 's': unreferenced local variable
+D:\4-2\Theory\apartment\apartment\main.cpp(2797,34): warning C4101: 't': unreferenced local variable
+  apartment.vcxproj -> D:\4-2\Theory\apartment\apartment\x64\Debug\apartment.exe

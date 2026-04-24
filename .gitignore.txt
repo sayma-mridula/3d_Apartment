@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+
+# Build files
+x64/
+Debug/
+Release/
+
+# Executables
+*.exe
+*.pdb
+
+# Temp
+*.log

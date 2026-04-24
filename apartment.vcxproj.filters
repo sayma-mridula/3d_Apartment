@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\graphics\glad\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.fs" />
+    <None Include="vertexShaderForPhongShading.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="fragmentShaderForGouraudShading.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="fragmentShaderForPhongShading.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="fragmentShaderForPhongShadingWithTexture.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="fragmentShaderV2.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vertexShader.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vertexShaderForGouraudShading.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vertexShaderForPhongShadingWithTexture.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vertexShaderForGouraudShadingWithTexture.vs" />
+    <None Include="fragmentShaderForGouraudShadingWithTexture.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cone.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder_base.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointLight.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bathroom_floor.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bathtub.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="floor.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="grass.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="outer_wall.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pathway.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="road.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="roof.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tv.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wall_p.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="floor2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tv1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tile.jpeg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="metal.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="concrete.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="inner_wall.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="vase.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="glass.jpeg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="door.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dining_table.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dresser.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kitchen_counter.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kitchen_shelf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="living_table.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="study_table.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wardrobe.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="back.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bottom.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="front.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="left.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="right.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="top.png">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
